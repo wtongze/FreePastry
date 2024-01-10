@@ -40,6 +40,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
+import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.HashMap;
 import java.util.Map;
@@ -283,7 +284,7 @@ public class AppSocketPastryNodeFactory extends SocketPastryNodeFactory {
               public void receiveResult(
                   P2PSocket<TransportLayerNodeHandle<MultiInetSocketAddress>> result) {
                 // return the socket
-                SocketManager sm = socketTable.remove(myUid); 
+                SocketManager sm = socketTable.remove(myUid);
                 SocketChannel ret = sm.getSocketChannel();
 //                System.out.println(ret+" "+ret.isRegistered()+" "+ret.validOps());
                 c.receiveResult(ret);

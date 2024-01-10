@@ -88,11 +88,8 @@ public class TCPLayer {
                 channel.setOption(StandardSocketOptions.SO_REUSEADDR, true);
                 channel.bind(wire.bindAddress);
                 this.channel = channel;
-                System.out.println(">>>>> TCP Layer");
             }
-            logger.log("TCPLayer bound to " + wire.bindAddress);
-
-            // this.key = wire.environment.getSelectorManager().register(channel, this, SelectionKey.OP_ACCEPT);
+            if (logger.level <= Logger.FINE) logger.log("TCPLayer bound to " + wire.bindAddress);
             channel.accept(null, new CompletionHandler<>() {
                 @Override
                 public void completed(AsynchronousSocketChannel ch, Object att) {

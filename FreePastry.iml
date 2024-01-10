@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/bouncycastle.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-jxpath-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-logging.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/sbbi-upnplib-1.0.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xmlpull_1_1_3_4a.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xpp3-1.1.3.4d_b2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/junit-4.11.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-14" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="bouncycastle.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/bouncycastle.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-jxpath-1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-jxpath-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sbbi-upnplib-1.0.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/sbbi-upnplib-1.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlpull_1_1_3_4a.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xmlpull_1_1_3_4a.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xpp3-1.1.3.4d_b2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xpp3-1.1.3.4d_b2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-4.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/junit-4.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
